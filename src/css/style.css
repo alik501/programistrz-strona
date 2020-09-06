@@ -1,0 +1,98 @@
+body {
+  width: 100vw;
+  overflow-x:hidden;
+}
+
+.main-container{
+  margin-top: 2vh;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+.info-col, .form-col{
+  padding: 0 2vw 0 2vw;
+
+}
+.form-float{
+  padding: 5%;
+  border-radius: 0.25rem;
+  background: #555555;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.full-width{
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+
+}
+.navbar{
+  width: 100%;
+  align-self: center;
+}
+.kursy-title{
+  margin-top: 2vw;
+}
+.card-container{
+  height: auto;
+  margin-bottom: 5vh;
+}
+.card{
+  height: 100%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-block{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col-md-12{
+  padding-left:5vh;
+  padding-right:5vh;
+}
+@media (min-width:1500px) {
+  .col-md-12{
+    padding-right: 15vw;
+    padding-left: 15vw;
+  }
+}
+@media (min-width:1700px) {
+  .col-md-12{
+    padding-right: 20vw;
+    padding-left: 20vw;
+  }
+}
+.carousel{
+  height: 40vh;
+  background: burlywood;
+}
+.carousel-inner{
+  height: 100%;
+}
+.carousel-item{
+  height: 100%;
+}
+.carousel-img{
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center;
+}
+.table-fill {
+  max-width: none;
+}
