@@ -96,3 +96,29 @@ body {
 .table-fill {
   max-width: none;
 }
+.promo{
+  
+  padding: 0;
+  margin-top: 2em ;
+  margin-bottom: 2em;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas:
+    "overlay empty";
+}
+.empty { grid-area: empty; }
+
+.transparent-overlay{
+  background: rgba(230, 230, 230, 0.5);
+  padding: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  grid-area: overlay;
+}
